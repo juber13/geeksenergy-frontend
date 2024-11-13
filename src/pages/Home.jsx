@@ -20,9 +20,7 @@ export const Home = () => {
 
     try {
       setLoading(true);
-      const { data } = await axios.get(
-        "http://localhost:5050/api/user/allUser"
-      );
+      const { data } = await axios.get("https://geeksenergy-backend.onrender.com/api/user/allUser");
 
       console.log("Fetched users:", data.formattedUsers);
 

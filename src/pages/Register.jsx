@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
     try {
         setLoading(true);
-        const {data} = await axios.post('http://localhost:5050/api/user/register' , userInfo);
+        const {data} = await axios.post('https://geeksenergy-backend.onrender.com/api/user/register' , userInfo);
         console.log(data)
         toast.success("User Registered Successfully");
         navigate('/login')    

@@ -20,7 +20,7 @@ const Login = () => {
        e.preventDefault();
        try {
          setLoading(true);
-         const { data } = await axios.post("http://localhost:5050/api/user/login",userInfo);
+         const { data } = await axios.post("https://geeksenergy-backend.onrender.com/api/user/login",userInfo);
          Cookies.set("token",data.token);
          toast.success("User logged in Successfully");
          navigate("/");
