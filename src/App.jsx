@@ -1,15 +1,15 @@
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import "./App.css";
 import { lazy } from "react";
 
 
-import { ToastContainer , toast } from "react-toastify";
+import { ToastContainer  } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Login = lazy(() => import("./pages/Login"));
 const Register = lazy(() => import("./pages/Register"));
 
-import { BrowserRouter  , createBrowserRouter, Route , RouterProvider, Routes } from "react-router-dom";
+import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import Home  from "./pages/Home";
 import Layout from "./components/Layout";
