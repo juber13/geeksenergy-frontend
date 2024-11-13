@@ -1,8 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## API Reference
 
-Currently, two official plugins are available:
+#### Get all items
+## Hosted link  !
+[Geeks Energy](https://geeksenergy-frontend-6izc.vercel.app/Login)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+![Alt text](./images/Screenshot 2024-11-13 170825.png)
+![Alt text](./images/Screenshot 2024-11-13 170840.png)
+![Alt text](./images/Screenshot 2024-11-13 170906.png)
+
+
+```http
+  POST https://geeksenergy-backend.onrender.com//api/user/register
+```
+```http
+  POST https://geeksenergy-backend.onrender.com//api/user/Login
+```
+```http
+  GET https://geeksenergy-backend.onrender.com//api/user/allUser
+```
+```http
+   PUT https://geeksenergy-backend.onrender.com//api/user/updateUser
+```
+
+```http
+   DELETE https://geeksenergy-backend.onrender.com//api/user/deleteUser
+```
+
+
+
+
+
