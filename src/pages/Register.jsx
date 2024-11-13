@@ -118,7 +118,7 @@ const Register = () => {
          </div>
 
         <button type='submit' className='btn btn-primary w-100'>
-          {loading ? <Loader /> : "Register"}
+          {loading ? <Loader  text={"Registering"}/> : "Register"}
         </button>
       </form>
     </div>
