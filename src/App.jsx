@@ -13,7 +13,7 @@ import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import Home  from "./pages/Home";
 import Layout from "./components/Layout";
-import ProtectedRoutes from "./components/Protectedroutes";
+import ProtectedRoutes from "./components/Protectedroutes.jsx";
 
 
 
