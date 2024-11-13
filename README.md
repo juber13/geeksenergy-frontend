@@ -15,20 +15,20 @@
 
 
 ```http
-  POST https://geeksenergy-backend.onrender.com//api/user/register
+  POST https://geeksenergy-backend.onrender.com/api/user/register
 ```
 ```http
-  POST https://geeksenergy-backend.onrender.com//api/user/Login
+  POST https://geeksenergy-backend.onrender.com/api/user/Login
 ```
 ```http
-  GET https://geeksenergy-backend.onrender.com//api/user/allUser
+  GET https://geeksenergy-backend.onrender.com/api/user/allUser
 ```
 ```http
-   PUT https://geeksenergy-backend.onrender.com//api/user/updateUser
+   PUT https://geeksenergy-backend.onrender.com/api/user/updateUser
 ```
 
 ```http
-   DELETE https://geeksenergy-backend.onrender.com//api/user/deleteUser
+   DELETE https://geeksenergy-backend.onrender.com/api/user/deleteUser
 ```
 
 
